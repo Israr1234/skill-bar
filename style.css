@@ -1,0 +1,40 @@
+ body{
+    border: 2px solid purple;
+    padding: 10px 60px;
+    border-radius: .5rem;
+    
+ } 
+.container{
+    background-color: #ddd;     
+    width: 100%;
+    margin-top: -10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skills{
+    text-align: right;
+    padding: 5px 10px;
+    color: white;
+    animation: load 1s 0s;
+}
+ @keyframes load{
+    from {
+        width: 0%;
+    }
+}
+.html{
+    width: 90%;
+    background-color: green;
+}
+.css{
+    width: 80%;
+    background-color: blue;}
+.js{
+    width: 60%;
+    background-color: red;
+}
+.py{
+    width: 50%;
+    background-color: purple;
+}
